@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kulit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>🤚 Kulit</h1>
+</header>
+<img src="Gambar/kulit.jpg" class="materi-foto" style="width:180px;">
+<section class="content-box">
+   
+    <p>Kulit adalah pancaindra peraba yang membantu kita merasakan sentuhan, panas, dingin, kasar, atau halus. Kulit melindungi seluruh tubuh dari kuman, kotoran, dan sinar matahari. Di bawah kulit terdapat banyak saraf perasa yang bekerja mengirimkan informasi ke otak setiap kali kita menyentuh sesuatu. Karena kulit sangat penting, kita harus menjaganya dengan mandi teratur, memakai lotion atau sunblock saat panas, dan menjaga kebersihannya.</p>
+
+    <button class="play-button" onclick="playVideo()">▶ Putar Video</button>
+
+    <div class="video-box" id="videoContainer" style="display:none;">
+        <iframe width="100%" height="200"
+        src="https://youtu.be/r3WKRYTfMLs?si=uBYj83LwaupjlZmR"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script>
+    function playVideo() {
+        document.getElementById("videoContainer").style.display = "block";
+    }
+    </script>
+
+    <a href="index.html" class="btn-back">Kembali</a>
+</section>
+
+</body>
+</html>

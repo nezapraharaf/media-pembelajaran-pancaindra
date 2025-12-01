@@ -1,0 +1,138 @@
+/* ====== GLOBAL ====== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffe9a9;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: #5c3c00;
+    text-align: center; /* BIAR TULISAN TIDAK KE PINGGIR */
+}
+
+a {
+    text-decoration: none;     /* Hilangkan garis bawah */
+    color: inherit;
+}
+a:hover {
+    opacity: 0.85;
+}
+
+/* ====== HEADER ====== */
+header {
+    margin-top: 20px;
+}
+
+/* ====== MENU UTAMA ====== */
+.main-menu {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.menu-btn {
+    background: #ffcc70;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.menu-btn:hover {
+    transform: scale(1.05);
+}
+
+/* ====== DAFTAR MATERI ====== */
+.materi-menu {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+}
+
+.materi-btn {
+    padding: 15px;
+    background: #ffcf81;
+    border-radius: 20px;
+    width: 220px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5c3c00;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.materi-img {
+    width: 180px;
+    margin: 10px auto;
+}
+
+/* ====== HALAMAN MATERI ====== */
+.materi-container {
+    max-width: 600px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* Tombol Play Video */
+.play-button {
+    display: block;
+    margin: 20px auto;
+    background: #ffb703;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.play-button:hover {
+    background: #ffa500;
+}
+
+/* Kotak Video */
+.video-box {
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Tombol Kembali */
+.back-btn, .btn-back {
+    display: inline-block;
+    margin-top: 25px;
+    background: #ffcc70;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5c3c00;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+/* ====== QUIZ ====== */
+.quiz-box {
+    margin-top: 30px;
+}
+
+.quiz-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background: #ffe4a7;
+    border-radius: 20px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lidah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>👅 Lidah</h1>
+</header>
+<img src="Gambar/lidah.png" class="materi-foto" style="width:180px;">
+<section class="content-box">
+   
+    <p>Lidah adalah pancaindra perasa yang membantu kita merasakan berbagai rasa seperti manis, asin, asam, dan pahit. Saat makanan menyentuh lidah, bintil-bintil kecil yang disebut papila menangkap rasa tersebut, lalu mengirimkan informasi ke otak. Itulah sebabnya kita bisa mengetahui rasa makanan. Selain itu, lidah juga membantu kita berbicara dan menelan. Karena penting, kita harus menjaga kebersihan lidah dan gigi agar tetap sehat</p>
+
+    <button class="play-button" onclick="playVideo()">▶ Putar Video</button>
+
+    <div class="video-box" id="videoContainer" style="display:none;">
+        <iframe width="100%" height="200"
+        src="https://youtu.be/CwGhO7940tk?si=Atlj7phxRLBJSBvz"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script>
+    function playVideo() {
+        document.getElementById("videoContainer").style.display = "block";
+    }
+    </script>
+
+    <a href="index.html" class="btn-back">Kembali</a>
+</section>
+
+</body>
+</html>
